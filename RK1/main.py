@@ -17,7 +17,7 @@ class ProgEnv:
         self.lang_id = lang_id
         self.env_id = env_id
 
-# Данные
+# Data
 prog_langs = [
     ProgLang(1, "Python"),
     ProgLang(2, "C++"),
