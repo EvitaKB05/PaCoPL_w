@@ -64,7 +64,7 @@ def task2(env_list):
     return res_12
 
 def task3(env_list):
-    res_13 = [(env_name, lang_name) for env_name, _, lang_name in env_list if _ < 2010]
+    res_13 = [(env_name, lang_name) for env_name, _, lang_name in env_list if _ < 2014]
     return res_13
 
 def main():
